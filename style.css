@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#name {
+
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    color: black;
+}
+
+#container {
+
+    width: 250px;
+    height: 300px;
+    background-color: rgb(91, 91, 91);
+    margin: auto;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+p {
+    margin-left: 10px;
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#screen {
+
+    margin-top: 10px;
+    width: 230px;
+    height: 50px;
+
+    border-radius: 5px;
+    background-color: rgb(201, 255, 255);
+    text-align: right;
+    font-size: 30px;
+}
+
+.button {
+
+    margin-top: 10px;
+    width: 52px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(132, 132, 132);
+
+}
+
+.number {
+
+    color: white;
+    font-size: medium;
+}
+
+.operator {
+
+    font-size: medium;
+    color: white;
+    background-color: rgb(178, 184, 188);
+}
+
+.clear {
+
+    font-size: medium;
+    color: white;
+    background-color: rgb(195, 10, 10);
+}
+
+.result {
+
+    color: white;
+    font-size: medium;
+}
+
+body {
+    background-color: rgb(213, 204, 173);
+}
+
+.number:hover {
+
+    background-color: rgb(117, 133, 146);
+}
+
+.operator:hover {
+    background-color: rgb(72, 65, 65);
+
+}
+
+.clear:hover {
+
+    background-color: rgb(233, 74, 74);
+}
+
+.result:hover {
+
+    background-color: cadetblue;
+}
